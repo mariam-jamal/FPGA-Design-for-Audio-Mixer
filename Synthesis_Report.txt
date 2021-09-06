@@ -1,0 +1,762 @@
+
+
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: SWATHI-RAO
+
+
+#Implementation: Audio_Mixer_impl
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Implementation : Audio_Mixer_impl
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N: :  | Running in 64-bit mode 
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Implementation : Audio_Mixer_impl
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N: :  | Running in 64-bit mode 
+@N: : main.vhd(14) | Top entity is set to main.
+Options changed - recompiling
+@W:CD643 : mult_add.vhd(8) | Ignoring use clause - fixed_pkg not found ...
+@W:CD643 : volume_mult.vhd(8) | Ignoring use clause - fixed_pkg not found ...
+@W:CD643 : main.vhd(8) | Ignoring use clause - fixed_pkg not found ...
+VHDL syntax check successful!
+Options changed - recompiling
+@N:CD630 : main.vhd(14) | Synthesizing work.main.behavioral.
+@N:CD630 : volume_mult.vhd(13) | Synthesizing work.volume_mult.behavioral.
+Post processing for work.volume_mult.behavioral
+Running optimization stage 1 on volume_mult .......
+@W:CL271 : volume_mult.vhd(33) | Pruning unused bits 37 to 24 of out2_int_2(37 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W:CL271 : volume_mult.vhd(33) | Pruning unused bits 37 to 24 of out1_int_3(37 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N:CD630 : mult_add.vhd(14) | Synthesizing work.signedmult_add.rtl.
+Post processing for work.signedmult_add.rtl
+Running optimization stage 1 on signedmult_add .......
+@W:CL169 : mult_add.vhd(49) | Pruning unused register saturation2_bit_2(26 downto 0). Make sure that there are no unused intermediate registers.
+@W:CL169 : mult_add.vhd(49) | Pruning unused register saturation1_bit_4(26 downto 0). Make sure that there are no unused intermediate registers.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g2_4_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g2_3_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g2_2_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g2_1_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g1_4_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g1_3_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g1_2_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:CL282 : mult_add.vhd(49) | Feedback mux created for signal g1_1_int[10:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N:CD630 : volume.vhd(11) | Synthesizing work.volume.behavioral.
+Post processing for work.volume.behavioral
+Running optimization stage 1 on volume .......
+@N:CD630 : gain_2.vhd(11) | Synthesizing work.gain_2.behavioral.
+Post processing for work.gain_2.behavioral
+Running optimization stage 1 on gain_2 .......
+@N:CD630 : gain.vhd(11) | Synthesizing work.gain.behavioral.
+Post processing for work.gain.behavioral
+Running optimization stage 1 on gain .......
+Post processing for work.main.behavioral
+Running optimization stage 1 on main .......
+Running optimization stage 2 on gain .......
+Running optimization stage 2 on gain_2 .......
+Running optimization stage 2 on volume .......
+Running optimization stage 2 on signedmult_add .......
+Running optimization stage 2 on volume_mult .......
+Running optimization stage 2 on main .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 73MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Implementation : Audio_Mixer_impl
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N: :  | Running in 64-bit mode 
+File C:\Users\Swathi\Desktop\Audio_Mixer\Audio_Mixer_impl\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  Audio_Mixer_impl_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+
+###########################################################]
+
+
+
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Database state : C:\Users\Swathi\Desktop\Audio_Mixer\Audio_Mixer_impl\synwork\|Audio_Mixer_impl
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N: :  | Running in 64-bit mode 
+Options changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+
+###########################################################]
+
+
+
+
+Premap Report
+
+
+
+
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Implementation : Audio_Mixer_impl
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:MF827 :  | No constraint file specified. 
+@N:MF284 :  | Setting synthesis effort to medium for the design 
+Linked File:  Audio_Mixer_impl_scck.rpt
+Printing clock  summary report in "C:\Users\Swathi\Desktop\Audio_Mixer\Audio_Mixer_impl\Audio_Mixer_impl_scck.rpt" file 
+@N:MF916 :  | Option synthesis_strategy=base is enabled.  
+@N:MF248 :  | Running in 64-bit mode. 
+@N:MF666 :  | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
+
+@N:MF284 :  | Setting synthesis effort to medium for the design 
+@N:MH105 :  | UMR3 is only supported for HAPS-80. 
+@N:MH105 :  | UMR3 is only supported for HAPS-80. 
+syn_allowed_resources : blockrams=15  set on top level netlist main
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start        Requested     Requested     Clock        Clock                     Clock
+Level     Clock        Frequency     Period        Type         Group                     Load 
+-----------------------------------------------------------------------------------------------
+0 -       main|clk     316.8 MHz     3.156         inferred     Autoconstr_clkgroup_0     656  
+===============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+             Clock     Source        Clock Pin                   Non-clock Pin     Non-clock Pin
+Clock        Load      Pin           Seq Example                 Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+main|clk     656       clk(port)     unit5.vol_1_int[10:0].C     -                 -            
+================================================================================================
+
+@W:MT529 : gain.vhd(32) | Found inferred clock main|clk which controls 656 sequential elements including unit1.g1_3_int[10:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:  0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 656 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------
+ClockId_0_0       clk                 Unconstrained_port     656        unit5.out2_int[23:0]
+============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N:FX1143 :  | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 58MB peak: 143MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+###########################################################]
+
+
+
+
+Map & Optimize Report
+
+
+
+
+
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: SWATHI-RAO
+
+Implementation : Audio_Mixer_impl
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:MF284 :  | Setting synthesis effort to medium for the design 
+@N:MF916 :  | Option synthesis_strategy=base is enabled.  
+@N:MF248 :  | Running in 64-bit mode. 
+@N:MF666 :  | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N:MF284 :  | Setting synthesis effort to medium for the design 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+    None Found
+
+@N:MT206 :  | Auto Constrain mode is enabled 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[15] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[14] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[13] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[12] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[11] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch0_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[15] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[14] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[13] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[12] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[11] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch1_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[15] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[14] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[13] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[12] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[11] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch2_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[15] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[14] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[13] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[12] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[11] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : mult_add.vhd(49) | Boundary register unit4.ch3_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_1_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[10] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[9] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[8] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[7] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[6] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[5] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[4] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[3] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[2] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[1] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A:BN291 : volume.vhd(26) | Boundary register unit3.vol_2_int[0] (in view: work.main(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 144MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 143MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 143MB peak: 144MB)
+
+Pass         CPU time       Worst Slack     Luts / Registers
+------------------------------------------------------------
+   1        0h:00m:03s           1.00ns        3 /       136
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 143MB peak: 144MB)
+
+@N:FX164 :  | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 143MB peak: 144MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 108MB peak: 144MB)
+
+Writing Analyst data base C:\Users\Swathi\Desktop\Audio_Mixer\Audio_Mixer_impl\synwork\Audio_Mixer_impl_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:08s; Memory used current: 145MB peak: 147MB)
+
+Writing EDIF Netlist and constraint files
+@N:FX1056 :  | Writing EDF file: C:\Users\Swathi\Desktop\Audio_Mixer\Audio_Mixer_impl\Audio_Mixer_impl.edi 
+N-2018.03L-SP1-1
+@N:BW106 :  | Synplicity Constraint File capacitance units using default value of 1pF  
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:10s; Memory used current: 149MB peak: 151MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:10s; Memory used current: 147MB peak: 151MB)
+
+@W:MT420 :  | Found inferred clock main|clk with period 3.16ns. Please declare a user-defined clock on port clk. 
+
+
+##### START OF TIMING REPORT #####[
+#
+
+
+Top view:               main
+Requested Frequency:    316.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:MT320 :  | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:MT322 :  | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.832
+
+@N:MT286 :  | System clock period 0.000 stretches to negative invalid value -- ignoring stretching. 
+                   Requested     Estimated     Requested     Estimated               Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group                
+-----------------------------------------------------------------------------------------------------------------------
+main|clk           316.8 MHz     770.5 MHz     3.156         1.298         1.858     inferred     Autoconstr_clkgroup_0
+System             1.0 MHz       1.0 MHz       1000.000      999.168       0.832     system       system_clkgroup      
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------
+System    System    |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System    main|clk  |  3.156       0.832     |  No paths    -      |  No paths    -      |  No paths    -    
+main|clk  System    |  3.156       1.858     |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                            Arrival          
+Instance                 Reference     Type         Pin     Net              Time        Slack
+                         Clock                                                                
+----------------------------------------------------------------------------------------------
+unit1_g1_0_intio[10]     main|clk      IFS1P3DX     Q       g1_1_int[10]     1.298       1.858
+unit1_g1_1_intio[10]     main|clk      IFS1P3DX     Q       g1_2_int[10]     1.298       1.858
+unit1_g1_2_intio[10]     main|clk      IFS1P3DX     Q       g1_3_int[10]     1.298       1.858
+unit1_g1_3_intio[10]     main|clk      IFS1P3DX     Q       g1_4_int[10]     1.298       1.858
+unit2_g2_0_intio[10]     main|clk      IFS1P3DX     Q       g2_1_int[10]     1.298       1.858
+unit2_g2_1_intio[10]     main|clk      IFS1P3DX     Q       g2_2_int[10]     1.298       1.858
+unit2_g2_2_intio[10]     main|clk      IFS1P3DX     Q       g2_3_int[10]     1.298       1.858
+unit2_g2_3_intio[10]     main|clk      IFS1P3DX     Q       g2_4_int[10]     1.298       1.858
+unit1_g1_0_intio[0]      main|clk      IFS1P3DX     Q       g1_1_int[0]      1.006       2.150
+unit1_g1_0_intio[1]      main|clk      IFS1P3DX     Q       g1_1_int[1]      1.006       2.150
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                        Required          
+Instance                           Reference     Type                    Pin      Net              Time         Slack
+                                   Clock                                                                             
+---------------------------------------------------------------------------------------------------------------------
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B010     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B010     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B011     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B011     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B012     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B012     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B013     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B013     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B014     g1_4_int[10]     3.156        1.858
+unit4.un5_result1a_int_2[26:0]     main|clk      MULT18X18ADDSUBSUMB     B014     g1_4_int[10]     3.156        1.858
+=====================================================================================================================
+
+
+
+Worst Path Information
+View Worst Path in Analyst
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.156
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.156
+
+    - Propagation time:                      1.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.858
+
+    Number of logic level(s):                0
+    Starting point:                          unit1_g1_0_intio[10] / Q
+    Ending point:                            unit4.un5_result1a_int_2[26:0] / B110
+    The start point is clocked by            main|clk [rising] on pin SCLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                               Type                    Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+unit1_g1_0_intio[10]               IFS1P3DX                Q        Out     1.298     1.298       -         
+g1_1_int[10]                       Net                     -        -       -         -           8         
+unit4.un5_result1a_int_2[26:0]     MULT18X18ADDSUBSUMB     B110     In      0.000     1.298       -         
+============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                  Arrival          
+Instance                     Reference     Type           Pin     Net                  Time        Slack
+                             Clock                                                                      
+--------------------------------------------------------------------------------------------------------
+unit5.out1_int_2_1[29:0]     System        MULT18X18B     P18     out1_int_2_1[18]     0.000       0.832
+unit5.out1_int_2_1[29:0]     System        MULT18X18B     P18     out1_int_2_1[18]     0.000       0.832
+unit5.out1_int_2_2[19:0]     System        MULT18X18B     P0      out1_int_2_2[0]      0.000       0.832
+unit5.out1_int_2_2[19:0]     System        MULT18X18B     P0      out1_int_2_2[0]      0.000       0.832
+unit5.out2_int_1_1[29:0]     System        MULT18X18B     P18     out2_int_1_1[18]     0.000       0.832
+unit5.out2_int_1_1[29:0]     System        MULT18X18B     P18     out2_int_1_1[18]     0.000       0.832
+unit5.out2_int_1_2[19:0]     System        MULT18X18B     P0      out2_int_1_2[0]      0.000       0.832
+unit5.out2_int_1_2[19:0]     System        MULT18X18B     P0      out2_int_1_2[0]      0.000       0.832
+unit5.out1_int_2_1[29:0]     System        MULT18X18B     P19     out1_int_2_1[19]     0.000       0.920
+unit5.out1_int_2_1[29:0]     System        MULT18X18B     P19     out1_int_2_1[19]     0.000       0.920
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                    Required          
+Instance                 Reference     Type         Pin     Net                      Time         Slack
+                         Clock                                                                         
+-------------------------------------------------------------------------------------------------------
+unit5_out1_intio[23]     System        OFS1P3DX     D       unit5.out1_int_2[23]     3.045        0.832
+unit5_out2_intio[23]     System        OFS1P3DX     D       unit5.out2_int_1[23]     3.045        0.832
+unit5_out1_intio[21]     System        OFS1P3DX     D       unit5.out1_int_2[21]     3.045        0.920
+unit5_out1_intio[22]     System        OFS1P3DX     D       unit5.out1_int_2[22]     3.045        0.920
+unit5_out2_intio[21]     System        OFS1P3DX     D       unit5.out2_int_1[21]     3.045        0.920
+unit5_out2_intio[22]     System        OFS1P3DX     D       unit5.out2_int_1[22]     3.045        0.920
+unit5_out1_intio[19]     System        OFS1P3DX     D       unit5.out1_int_2[19]     3.045        1.008
+unit5_out1_intio[20]     System        OFS1P3DX     D       unit5.out1_int_2[20]     3.045        1.008
+unit5_out2_intio[19]     System        OFS1P3DX     D       unit5.out2_int_1[19]     3.045        1.008
+unit5_out2_intio[20]     System        OFS1P3DX     D       unit5.out2_int_1[20]     3.045        1.008
+=======================================================================================================
+
+
+
+Worst Path Information
+View Worst Path in Analyst
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.156
+    - Setup time:                            0.111
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.045
+
+    - Propagation time:                      2.213
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     0.832
+
+    Number of logic level(s):                4
+    Starting point:                          unit5.out1_int_2_1[29:0] / P18
+    Ending point:                            unit5_out1_intio[23] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            main|clk [rising] on pin SCLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                               Type           Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+unit5.out1_int_2_1[29:0]           MULT18X18B     P18      Out     0.000     0.000       -         
+out1_int_2_1[18]                   Net            -        -       -         -           2         
+unit5.out1_int_2_add_1_cry_0_0     CCU2B          A1       In      0.000     0.000       -         
+unit5.out1_int_2_add_1_cry_0_0     CCU2B          COUT     Out     1.243     1.243       -         
+out1_int_2_add_1_cry_0             Net            -        -       -         -           1         
+unit5.out1_int_2_add_1_cry_1_0     CCU2B          CIN      In      0.000     1.243       -         
+unit5.out1_int_2_add_1_cry_1_0     CCU2B          COUT     Out     0.088     1.331       -         
+out1_int_2_add_1_cry_2             Net            -        -       -         -           1         
+unit5.out1_int_2_add_1_cry_3_0     CCU2B          CIN      In      0.000     1.331       -         
+unit5.out1_int_2_add_1_cry_3_0     CCU2B          COUT     Out     0.088     1.419       -         
+out1_int_2_add_1_cry_4             Net            -        -       -         -           1         
+unit5.out1_int_2_add_1_s_5_0       CCU2B          CIN      In      0.000     1.419       -         
+unit5.out1_int_2_add_1_s_5_0       CCU2B          S0       Out     0.794     2.213       -         
+out1_int_2[23]                     Net            -        -       -         -           1         
+unit5_out1_intio[23]               OFS1P3DX       D        In      0.000     2.213       -         
+===================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:10s; Memory used current: 148MB peak: 151MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:10s; Memory used current: 148MB peak: 151MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_17e-5
+
+Register bits: 136 of 16560 (1%)
+PIC Latch:       0
+I/O cells:       224
+
+DSP primitives:       6 of 15 (40%)
+
+Details:
+CCU2B:          8
+GSR:            1
+IB:             176
+IFS1P3DX:       88
+INV:            1
+MULT18X18ADDSUBSUMB: 2
+MULT18X18B:     4
+OB:             48
+OFS1P3DX:       48
+ORCALUT4:       2
+PUR:            1
+VHI:            3
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:11s; Memory used current: 32MB peak: 151MB)
+
+Process took 0h:00m:14s realtime, 0h:00m:11s cputime
+
+
+###########################################################]
+

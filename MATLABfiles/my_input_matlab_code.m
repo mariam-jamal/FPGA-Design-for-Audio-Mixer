@@ -1,0 +1,16 @@
+filename = 'C:\Users\Swathi\Desktop\test.mp3';
+[y1,Fs] = audioread(filename);
+c1=y1(:,1);
+c2=y1(:,2);
+y2a=sfi(c1);
+y2b=sfi(c2);
+ya=bin(y2a);
+yb=bin(y2b);
+ta = cellstr(ya);
+tb = cellstr(yb);
+fid = fopen('D:\MSc-ESM\2nd Semester\ME HW -SW Co-Design\Ref materials and homework\myFile.txt', 'w');
+fprintf(fid, '%s\n', ta{:});
+fclose(fid);
+fid = fopen('D:\MSc-ESM\2nd Semester\ME HW -SW Co-Design\Ref materials and homework\myFile.txt');
+fprintf(fid, '%s\n', tb{:});
+fclose(fid);
